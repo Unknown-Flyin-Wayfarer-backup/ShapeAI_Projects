@@ -24,4 +24,4 @@ print ("Current Humidity      :",hmdt, '%')
 print ("Current wind speed    :",wind_spd ,'kmph')
 
 with open('data.txt','wb') as f:
-    f.write(r.text)
+    f.write(api_data.text)
